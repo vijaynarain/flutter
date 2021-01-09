@@ -4,11 +4,13 @@
 
 import 'package:flutter/widgets.dart';
 
+//program to show hello word on the app
+
 void main() =>
   runApp(
     const Center(
       child:
-        Text('Hello, world!',
+        Text("Hello world!",
           key: Key('title'),
           textDirection: TextDirection.ltr
         )
